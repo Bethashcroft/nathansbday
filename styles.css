@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  display: list-item;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+#header {
+  text-align: center;
+  font-size: 5em;
+  font-weight: bolder;
+  font-family: "Righteous", cursive;
+}
+
+#message {
+  text-align: center;
+  font-size: xx-large;
+  padding-top: 0.5em;
+  padding-bottom: 4em;
+}
+
+#surprisebtn {
+  text-align: center;
+  border: solid 2px black;
+  border-radius: 10px;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+#welcome {
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+}
+
+#present1,
+#present2 {
+  font-size: larger;
+  font-weight: 600;
+}
+
+#header2 {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  #header,
+  #message {
+    width: 100%;
+  }
+}
